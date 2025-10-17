@@ -1,0 +1,282 @@
+{
+  "agent_name": "学习助手",
+  "final_performance": {
+    "total_tasks": 16,
+    "successful_tasks": 8,
+    "success_rate": 0.5,
+    "exploration_rate": 0.35,
+    "learned_preferences": {
+      "搜索": {
+        "search": 0.505
+      },
+      "计算": {
+        "search": 0.49500000000000005
+      },
+      "分析": {
+        "calculate": 0.405
+      },
+      "规划": {
+        "search": 0.55,
+        "plan": 0.55
+      },
+      "研究": {
+        "plan": 0.45
+      },
+      "优化": {
+        "plan": 0.45
+      },
+      "评估": {
+        "search": 0.45
+      },
+      "设计": {
+        "search": 0.45
+      },
+      "创建": {
+        "analyze": 0.55
+      },
+      "预测": {
+        "analyze": 0.55
+      },
+      "制定": {
+        "analyze": 0.55
+      },
+      "构建": {
+        "analyze": 0.55
+      }
+    },
+    "action_success_rates": {
+      "search": 0.43670745,
+      "calculate": 0.405,
+      "plan": 0.44550000000000006,
+      "analyze": 0.67195
+    }
+  },
+  "task_results": [
+    {
+      "task": "搜索：Python基础教程",
+      "action": "search",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.0
+    },
+    {
+      "task": "计算：投资收益率",
+      "action": "search",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.5
+    },
+    {
+      "task": "分析：用户行为数据",
+      "action": "calculate",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "task": "规划：学习路线图",
+      "action": "search",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.5
+    },
+    {
+      "task": "搜索：机器学习算法",
+      "action": "search",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.6
+    },
+    {
+      "task": "计算：模型准确率",
+      "action": "search",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.5
+    },
+    {
+      "task": "分析：数据分布特征",
+      "action": "calculate",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.42857142857142855
+    },
+    {
+      "task": "规划：项目开发计划",
+      "action": "plan",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.5
+    },
+    {
+      "task": "研究：深度学习前沿",
+      "action": "plan",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.4444444444444444
+    },
+    {
+      "task": "优化：神经网络架构",
+      "action": "plan",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.4
+    },
+    {
+      "task": "评估：系统性能指标",
+      "action": "search",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.36363636363636365
+    },
+    {
+      "task": "设计：智能推荐系统",
+      "action": "search",
+      "success": false,
+      "reward": -0.5,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "task": "创建：新型算法框架",
+      "action": "analyze",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.38461538461538464
+    },
+    {
+      "task": "预测：技术发展趋势",
+      "action": "analyze",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.42857142857142855
+    },
+    {
+      "task": "制定：AI伦理准则",
+      "action": "analyze",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.4666666666666667
+    },
+    {
+      "task": "构建：多模态学习系统",
+      "action": "analyze",
+      "success": true,
+      "reward": 1.0,
+      "success_rate": 0.5
+    }
+  ],
+  "learning_timeline": [
+    {
+      "task_num": 1,
+      "task": "搜索：Python基础教程",
+      "action": "search",
+      "success": false,
+      "cumulative_success_rate": 0.0
+    },
+    {
+      "task_num": 2,
+      "task": "计算：投资收益率",
+      "action": "search",
+      "success": true,
+      "cumulative_success_rate": 0.5
+    },
+    {
+      "task_num": 3,
+      "task": "分析：用户行为数据",
+      "action": "calculate",
+      "success": false,
+      "cumulative_success_rate": 0.3333333333333333
+    },
+    {
+      "task_num": 4,
+      "task": "规划：学习路线图",
+      "action": "search",
+      "success": true,
+      "cumulative_success_rate": 0.5
+    },
+    {
+      "task_num": 5,
+      "task": "搜索：机器学习算法",
+      "action": "search",
+      "success": true,
+      "cumulative_success_rate": 0.6
+    },
+    {
+      "task_num": 6,
+      "task": "计算：模型准确率",
+      "action": "search",
+      "success": false,
+      "cumulative_success_rate": 0.5
+    },
+    {
+      "task_num": 7,
+      "task": "分析：数据分布特征",
+      "action": "calculate",
+      "success": false,
+      "cumulative_success_rate": 0.42857142857142855
+    },
+    {
+      "task_num": 8,
+      "task": "规划：项目开发计划",
+      "action": "plan",
+      "success": true,
+      "cumulative_success_rate": 0.5
+    },
+    {
+      "task_num": 9,
+      "task": "研究：深度学习前沿",
+      "action": "plan",
+      "success": false,
+      "cumulative_success_rate": 0.4444444444444444
+    },
+    {
+      "task_num": 10,
+      "task": "优化：神经网络架构",
+      "action": "plan",
+      "success": false,
+      "cumulative_success_rate": 0.4
+    },
+    {
+      "task_num": 11,
+      "task": "评估：系统性能指标",
+      "action": "search",
+      "success": false,
+      "cumulative_success_rate": 0.36363636363636365
+    },
+    {
+      "task_num": 12,
+      "task": "设计：智能推荐系统",
+      "action": "search",
+      "success": false,
+      "cumulative_success_rate": 0.3333333333333333
+    },
+    {
+      "task_num": 13,
+      "task": "创建：新型算法框架",
+      "action": "analyze",
+      "success": true,
+      "cumulative_success_rate": 0.38461538461538464
+    },
+    {
+      "task_num": 14,
+      "task": "预测：技术发展趋势",
+      "action": "analyze",
+      "success": true,
+      "cumulative_success_rate": 0.42857142857142855
+    },
+    {
+      "task_num": 15,
+      "task": "制定：AI伦理准则",
+      "action": "analyze",
+      "success": true,
+      "cumulative_success_rate": 0.4666666666666667
+    },
+    {
+      "task_num": 16,
+      "task": "构建：多模态学习系统",
+      "action": "analyze",
+      "success": true,
+      "cumulative_success_rate": 0.5
+    }
+  ]
+}

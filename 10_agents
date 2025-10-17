@@ -1,0 +1,478 @@
+常用Agent框架
+1. MetaGPT (项目中已有)
+一个多智能体框架，专注于软件开发流程的自动化
+
+特点：
+
+多角色协作（产品经理、架构师、工程师等）
+自动化软件开发流程
+支持多种LLM后端
+使用示例：
+
+python
+# 基本使用
+python startup.py '开发一个井字棋游戏'
+
+# 指定输出目录
+python startup.py '设计一个博客系统' --project-path ./my_project
+2. LangChain
+最流行的LLM应用开发框架之一
+
+特点：
+
+丰富的工具和组件
+强大的链式调用
+广泛的集成支持
+使用示例：
+
+python
+from langchain.agents import create_openai_functions_agent
+from langchain.tools import Tool
+from langchain_openai import ChatOpenAI
+
+# 创建工具
+def calculator(expression: str) -> str:
+    """计算数学表达式"""
+    try:
+        return str(eval(expression))
+    except:
+        return "计算错误"
+
+tools = [Tool(
+    name="Calculator",
+    func=calculator,
+    description="用于计算数学表达式"
+)]
+
+# 创建Agent
+llm = ChatOpenAI(model="gpt-3.5-turbo")
+agent = create_openai_functions_agent(llm, tools)
+3. AutoGen
+微软开源的多智能体对话框架
+
+特点：
+
+多智能体对话
+代码执行能力
+人类参与循环
+使用示例：
+
+python
+import autogen
+
+config_list = [{"model": "gpt-3.5-turbo", "api_key": "your_key"}]
+
+# 创建助手
+assistant = autogen.AssistantAgent(
+    name="assistant",
+    llm_config={"config_list": config_list}
+)
+
+# 创建用户代理
+user_proxy = autogen.UserProxyAgent(
+    name="user_proxy",
+    human_input_mode="TERMINATE",
+    code_execution_config={"work_dir": "coding"}
+)
+
+# 开始对话
+user_proxy.initiate_chat(assistant, message="写一个排序算法")
+4. CrewAI
+专注于协作AI智能体的框架
+
+特点：
+
+角色定义清晰
+任务导向
+团队协作
+使用示例：
+
+python
+from crewai import Agent, Task, Crew
+
+# 定义智能体
+researcher = Agent(
+    role='研究员',
+    goal='收集和分析数据',
+    backstory='你是一名经验丰富的研究员',
+    verbose=True
+)
+
+writer = Agent(
+    role='作家',
+    goal='撰写引人入胜的内容',
+    backstory='你是一名专业作家',
+    verbose=True
+)
+
+# 定义任务
+research_task = Task(
+    description='研究AI的最新发展',
+    agent=researcher
+)
+
+write_task = Task(
+    description='写一篇关于AI发展的文章',
+    agent=writer
+)
+
+# 创建团队
+crew = Crew(
+    agents=[researcher, writer],
+    tasks=[research_task, write_task],
+    verbose=2
+)
+5. 自定义Agent框架 (项目中已实现)
+您的项目中已经实现了一个很好的自定义Agent框架
+
+特点：
+
+模块化设计
+工具系统
+多Agent协调
+让我为您创建一个更完整的Agent框架对比示例：
+
+python
+# agent_frameworks_comparison.py
+
+"""
+Agent框架对比演示
+展示不同类型的Agent框架及其使用场景
+"""
+
+import asyncio
+from typing import Dict, List, Any
+from dataclasses import dataclass
+from abc import ABC, abstractmethod
+
+
+@dataclass
+class AgentFramework:
+    """Agent框架信息"""
+    name: str
+    description: str
+    strengths: List[str]
+    use_cases: List[str]
+    installation: str
+    example_code: str
+
+
+class FrameworkComparison:
+    """框架对比类"""
+    
+    def __init__(self):
+        self.frameworks = self._initialize_frameworks()
+    
+    def _initialize_frameworks(self) -> Dict[str, AgentFramework]:
+        """初始化框架信息"""
+        return {
+            "metagpt": AgentFramework(
+                name="MetaGPT",
+                description="多智能体软件开发框架",
+                strengths=[
+                    "自动化软件开发流程",
+                    "多角色协作",
+                    "标准化开发文档",
+                    "支持多种LLM"
+                ],
+                use_cases=[
+                    "软件项目自动化开发",
+                    "需求分析和架构设计",
+                    "代码生成和文档撰写",
+                    "团队协作模拟"
+                ],
+                installation="pip install metagpt",
+                example_code="""
+from metagpt.software_company import SoftwareCompany
+
+async def create_project():
+    company = SoftwareCompany()
+    result = await company.run("开发一个待办事项应用")
+    return result
+"""
+            ),
+            
+            "langchain": AgentFramework(
+                name="LangChain",
+                description="LLM应用开发框架",
+                strengths=[
+                    "丰富的工具生态",
+                    "链式调用机制",
+                    "强大的集成能力",
+                    "活跃的社区"
+                ],
+                use_cases=[
+                    "聊天机器人开发",
+                    "文档问答系统",
+                    "工具调用Agent",
+                    "复杂流程自动化"
+                ],
+                installation="pip install langchain langchain-openai",
+                example_code="""
+from langchain.agents import create_openai_functions_agent
+from langchain.tools import Tool
+from langchain_openai import ChatOpenAI
+
+def search_tool(query: str) -> str:
+    return f"搜索结果: {query}"
+
+tools = [Tool(name="Search", func=search_tool, description="搜索工具")]
+llm = ChatOpenAI(model="gpt-3.5-turbo")
+agent = create_openai_functions_agent(llm, tools)
+"""
+            ),
+            
+            "autogen": AgentFramework(
+                name="AutoGen",
+                description="多智能体对话框架",
+                strengths=[
+                    "多智能体对话",
+                    "代码执行环境",
+                    "人类参与循环",
+                    "灵活的对话模式"
+                ],
+                use_cases=[
+                    "代码生成和调试",
+                    "问题解决协作",
+                    "教学和培训",
+                    "复杂任务分解"
+                ],
+                installation="pip install pyautogen",
+                example_code="""
+import autogen
+
+config_list = [{"model": "gpt-3.5-turbo", "api_key": "your_key"}]
+
+assistant = autogen.AssistantAgent(
+    name="assistant",
+    llm_config={"config_list": config_list}
+)
+
+user_proxy = autogen.UserProxyAgent(
+    name="user_proxy",
+    human_input_mode="TERMINATE"
+)
+"""
+            ),
+            
+            "crewai": AgentFramework(
+                name="CrewAI",
+                description="协作AI智能体框架",
+                strengths=[
+                    "角色定义清晰",
+                    "任务导向设计",
+                    "团队协作机制",
+                    "结果可控性好"
+                ],
+                use_cases=[
+                    "内容创作团队",
+                    "研究分析项目",
+                    "营销活动策划",
+                    "业务流程自动化"
+                ],
+                installation="pip install crewai",
+                example_code="""
+from crewai import Agent, Task, Crew
+
+researcher = Agent(
+    role='研究员',
+    goal='收集和分析数据',
+    backstory='经验丰富的研究员'
+)
+
+research_task = Task(
+    description='研究市场趋势',
+    agent=researcher
+)
+
+crew = Crew(agents=[researcher], tasks=[research_task])
+"""
+            ),
+            
+            "custom": AgentFramework(
+                name="自定义框架",
+                description="基于特定需求的定制化Agent框架",
+                strengths=[
+                    "完全可控",
+                    "轻量级",
+                    "针对性强",
+                    "易于扩展"
+                ],
+                use_cases=[
+                    "特定业务场景",
+                    "学习和研究",
+                    "原型开发",
+                    "性能优化需求"
+                ],
+                installation="# 无需安装，直接实现",
+                example_code="""
+class CustomAgent(BaseAgent):
+    def __init__(self, name: str):
+        super().__init__(name, "自定义角色")
+        self.add_tool(CalculatorTool())
+    
+    def process_input(self, input_text: str) -> str:
+        # 自定义处理逻辑
+        return f"处理结果: {input_text}"
+"""
+            )
+        }
+    
+    def get_framework_info(self, framework_name: str) -> AgentFramework:
+        """获取框架信息"""
+        return self.frameworks.get(framework_name.lower())
+    
+    def compare_frameworks(self) -> str:
+        """比较所有框架"""
+        comparison = "📊 Agent框架对比\n" + "="*50 + "\n\n"
+        
+        for name, framework in self.frameworks.items():
+            comparison += f"🔹 **{framework.name}**\n"
+            comparison += f"   描述: {framework.description}\n"
+            comparison += f"   优势: {', '.join(framework.strengths[:2])}...\n"
+            comparison += f"   适用: {', '.join(framework.use_cases[:2])}...\n\n"
+        
+        return comparison
+    
+    def recommend_framework(self, use_case: str) -> str:
+        """根据使用场景推荐框架"""
+        use_case = use_case.lower()
+        
+        recommendations = {
+            "软件开发": "metagpt",
+            "聊天机器人": "langchain", 
+            "代码生成": "autogen",
+            "内容创作": "crewai",
+            "学习研究": "custom"
+        }
+        
+        for keyword, framework in recommendations.items():
+            if keyword in use_case:
+                framework_info = self.frameworks[framework]
+                return f"推荐使用 {framework_info.name}:\n{framework_info.description}"
+        
+        return "请提供更具体的使用场景以获得推荐"
+
+
+def demo_framework_selection():
+    """演示框架选择"""
+    print("🎯 Agent框架选择指南")
+    print("="*50)
+    
+    comparison = FrameworkComparison()
+    
+    # 显示所有框架对比
+    print(comparison.compare_frameworks())
+    
+    # 场景推荐
+    scenarios = [
+        "我想开发一个自动化软件开发系统",
+        "我需要创建一个智能聊天机器人",
+        "我想让多个AI协作写代码",
+        "我需要一个内容创作团队",
+        "我想学习Agent开发原理"
+    ]
+    
+    print("💡 使用场景推荐:")
+    for scenario in scenarios:
+        recommendation = comparison.recommend_framework(scenario)
+        print(f"\n场景: {scenario}")
+        print(f"推荐: {recommendation}")
+    
+    print("\n" + "="*50)
+    print("选择建议:")
+    print("• 新手学习 → 自定义框架或LangChain")
+    print("• 软件开发 → MetaGPT")
+    print("• 复杂对话 → AutoGen") 
+    print("• 团队协作 → CrewAI")
+    print("• 生产环境 → LangChain")
+
+
+def create_framework_demo():
+    """创建各框架的简单演示"""
+    print("\n🚀 框架使用演示")
+    print("="*50)
+    
+    # 这里展示各框架的基本使用模式
+    frameworks_demo = {
+        "MetaGPT": """
+# MetaGPT 使用示例
+import asyncio
+from metagpt.software_company import SoftwareCompany
+
+async def main():
+    company = SoftwareCompany()
+    result = await company.run("开发一个计算器应用")
+    print("项目生成完成!")
+
+# asyncio.run(main())
+        """,
+        
+        "LangChain": """
+# LangChain 使用示例
+from langchain.agents import create_openai_functions_agent
+from langchain.tools import Tool
+
+def calculator(expression):
+    return str(eval(expression))
+
+tools = [Tool(name="calc", func=calculator, description="计算器")]
+# agent = create_openai_functions_agent(llm, tools)
+        """,
+        
+        "AutoGen": """
+# AutoGen 使用示例
+import autogen
+
+config = [{"model": "gpt-3.5-turbo", "api_key": "your_key"}]
+
+assistant = autogen.AssistantAgent("assistant", llm_config={"config_list": config})
+user = autogen.UserProxyAgent("user", human_input_mode="TERMINATE")
+
+# user.initiate_chat(assistant, message="Hello!")
+        """,
+        
+        "CrewAI": """
+# CrewAI 使用示例
+from crewai import Agent, Task, Crew
+
+writer = Agent(role='作家', goal='写文章', backstory='专业作家')
+task = Task(description='写一篇AI文章', agent=writer)
+crew = Crew(agents=[writer], tasks=[task])
+
+# result = crew.kickoff()
+        """
+    }
+    
+    for framework, code in frameworks_demo.items():
+        print(f"\n📝 {framework} 代码示例:")
+        print(code)
+
+
+if __name__ == "__main__":
+    # 演示框架选择指南
+    demo_framework_selection()
+    
+    # 显示代码示例
+    create_framework_demo()
+    
+    print("\n✨ 总结:")
+    print("每个框架都有其特定的适用场景，选择时需要考虑:")
+    print("1. 项目复杂度")
+    print("2. 团队技术栈") 
+    print("3. 性能要求")
+    print("4. 社区支持")
+    print("5. 学习成本")
+框架选择建议
+初学者推荐：
+
+自定义框架（如您项目中的实现）- 理解Agent原理
+LangChain - 生态丰富，文档完善
+特定场景推荐：
+
+软件开发自动化 → MetaGPT
+多智能体对话 → AutoGen
+内容创作团队 → CrewAI
+工具调用和链式处理 → LangChain
+学习和原型开发 → 自定义框架
+您的项目中已经有很好的MetaGPT和自定义Agent框架示例，这是一个很好的学习和实践基础！

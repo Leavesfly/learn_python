@@ -1,0 +1,484 @@
+{
+  "name": "学习型AI助手",
+  "experiences": [
+    {
+      "task": "搜索Python教程",
+      "context": {
+        "query": "Python基础教程",
+        "difficulty": "beginner",
+        "task": "搜索Python教程"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 2,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.3344672,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'query': 'Python基础教程', 'difficulty': 'beginner', 'task': '搜索Python教程'}中表现良好"
+    },
+    {
+      "task": "计算复合利率",
+      "context": {
+        "expression": "1000 * (1.05 ** 10)",
+        "context": "finance",
+        "task": "计算复合利率"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 1628.894626777442,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.3353732,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'expression': '1000 * (1.05 ** 10)', 'context': 'finance', 'task': '计算复合利率'}中表现良好"
+    },
+    {
+      "task": "分析用户数据",
+      "context": {
+        "data": {
+          "users": 100,
+          "active": 80,
+          "retention": 0.75
+        },
+        "task": "分析用户数据"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 2,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.335544,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'data': {'users': 100, 'active': 80, 'retention': 0.75}, 'task': '分析用户数据'}中表现良好"
+    },
+    {
+      "task": "制定学习计划",
+      "context": {
+        "goal": "掌握机器学习",
+        "timeframe": "3个月",
+        "task": "制定学习计划"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 2,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.335718,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'goal': '掌握机器学习', 'timeframe': '3个月', 'task': '制定学习计划'}中表现良好"
+    },
+    {
+      "task": "搜索机器学习资源",
+      "context": {
+        "query": "机器学习入门",
+        "difficulty": "intermediate",
+        "task": "搜索机器学习资源"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 2,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.336024,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'query': '机器学习入门', 'difficulty': 'intermediate', 'task': '搜索机器学习资源'}中表现良好"
+    },
+    {
+      "task": "分析学习进度",
+      "context": {
+        "data": {
+          "completed": 5,
+          "total": 20,
+          "avg_score": 85
+        },
+        "task": "分析学习进度"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 2,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.336235,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'data': {'completed': 5, 'total': 20, 'avg_score': 85}, 'task': '分析学习进度'}中表现良好"
+    },
+    {
+      "task": "计算学习效率",
+      "context": {
+        "expression": "85 / 100 * 0.8",
+        "context": "learning",
+        "task": "计算学习效率"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 0.68,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.3365,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'expression': '85 / 100 * 0.8', 'context': 'learning', 'task': '计算学习效率'}中表现良好"
+    },
+    {
+      "task": "优化学习策略",
+      "context": {
+        "goal": "提高学习效率",
+        "current_rate": 0.68,
+        "task": "优化学习策略"
+      },
+      "action": "calculate",
+      "result": {
+        "result": 2,
+        "success": true
+      },
+      "success": true,
+      "reward": 1.0,
+      "timestamp": 1759332579.336687,
+      "reflection": "成功完成任务的关键因素：calculate在上下文{'goal': '提高学习效率', 'current_rate': 0.68, 'task': '优化学习策略'}中表现良好"
+    }
+  ],
+  "strategies": {
+    "探索策略": {
+      "name": "探索策略",
+      "description": "在不确定情况下进行探索",
+      "conditions": {
+        "uncertainty": "high"
+      },
+      "actions": [
+        "search",
+        "analyze"
+      ],
+      "success_rate": 0.5,
+      "usage_count": 0,
+      "last_updated": 1759332579.3342211
+    },
+    "利用策略": {
+      "name": "利用策略",
+      "description": "使用已知有效的方法",
+      "conditions": {
+        "confidence": "high"
+      },
+      "actions": [
+        "plan",
+        "execute"
+      ],
+      "success_rate": 0.8,
+      "usage_count": 0,
+      "last_updated": 1759332579.334224
+    },
+    "策略_搜索Python教程_calculate": {
+      "name": "策略_搜索Python教程_calculate",
+      "description": "针对搜索Python教程任务的calculate策略",
+      "conditions": {
+        "task_type": "搜索Python教程"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.334513
+    },
+    "策略_计算复合利率_calculate": {
+      "name": "策略_计算复合利率_calculate",
+      "description": "针对计算复合利率任务的calculate策略",
+      "conditions": {
+        "task_type": "计算复合利率"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.335422
+    },
+    "策略_分析用户数据_calculate": {
+      "name": "策略_分析用户数据_calculate",
+      "description": "针对分析用户数据任务的calculate策略",
+      "conditions": {
+        "task_type": "分析用户数据"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.335584
+    },
+    "策略_制定学习计划_calculate": {
+      "name": "策略_制定学习计划_calculate",
+      "description": "针对制定学习计划任务的calculate策略",
+      "conditions": {
+        "task_type": "制定学习计划"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.335755
+    },
+    "策略_搜索机器学习资源_calculate": {
+      "name": "策略_搜索机器学习资源_calculate",
+      "description": "针对搜索机器学习资源任务的calculate策略",
+      "conditions": {
+        "task_type": "搜索机器学习资源"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.3360739
+    },
+    "策略_分析学习进度_calculate": {
+      "name": "策略_分析学习进度_calculate",
+      "description": "针对分析学习进度任务的calculate策略",
+      "conditions": {
+        "task_type": "分析学习进度"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.336273
+    },
+    "策略_计算学习效率_calculate": {
+      "name": "策略_计算学习效率_calculate",
+      "description": "针对计算学习效率任务的calculate策略",
+      "conditions": {
+        "task_type": "计算学习效率"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.3365362
+    },
+    "策略_优化学习策略_calculate": {
+      "name": "策略_优化学习策略_calculate",
+      "description": "针对优化学习策略任务的calculate策略",
+      "conditions": {
+        "task_type": "优化学习策略"
+      },
+      "actions": [
+        "calculate"
+      ],
+      "success_rate": 1.0,
+      "usage_count": 1,
+      "last_updated": 1759332579.33672
+    }
+  },
+  "performance_history": [
+    {
+      "timestamp": 1759332579.334516,
+      "success_rate": 1.0,
+      "total_tasks": 1
+    },
+    {
+      "timestamp": 1759332579.335424,
+      "success_rate": 1.0,
+      "total_tasks": 2
+    },
+    {
+      "timestamp": 1759332579.335585,
+      "success_rate": 1.0,
+      "total_tasks": 3
+    },
+    {
+      "timestamp": 1759332579.335757,
+      "success_rate": 1.0,
+      "total_tasks": 4
+    },
+    {
+      "timestamp": 1759332579.336076,
+      "success_rate": 1.0,
+      "total_tasks": 5
+    },
+    {
+      "timestamp": 1759332579.3362749,
+      "success_rate": 1.0,
+      "total_tasks": 6
+    },
+    {
+      "timestamp": 1759332579.3365371,
+      "success_rate": 1.0,
+      "total_tasks": 7
+    },
+    {
+      "timestamp": 1759332579.336722,
+      "success_rate": 1.0,
+      "total_tasks": 8
+    }
+  ],
+  "total_tasks": 8,
+  "successful_tasks": 8,
+  "learning_rate": 0.1,
+  "exploration_rate": 0.2,
+  "knowledge_graph_nodes": {
+    "task:搜索Python教程": {
+      "properties": {
+        "type": "task",
+        "description": "搜索Python教程",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.334473,
+      "access_count": 0
+    },
+    "action:calculate": {
+      "properties": {
+        "type": "action",
+        "description": "calculate"
+      },
+      "created_at": 1759332579.336701,
+      "access_count": 0
+    },
+    "task:计算复合利率": {
+      "properties": {
+        "type": "task",
+        "description": "计算复合利率",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.335378,
+      "access_count": 0
+    },
+    "task:分析用户数据": {
+      "properties": {
+        "type": "task",
+        "description": "分析用户数据",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.335546,
+      "access_count": 0
+    },
+    "task:制定学习计划": {
+      "properties": {
+        "type": "task",
+        "description": "制定学习计划",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.335721,
+      "access_count": 0
+    },
+    "task:搜索机器学习资源": {
+      "properties": {
+        "type": "task",
+        "description": "搜索机器学习资源",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.33603,
+      "access_count": 0
+    },
+    "task:分析学习进度": {
+      "properties": {
+        "type": "task",
+        "description": "分析学习进度",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.3362381,
+      "access_count": 0
+    },
+    "task:计算学习效率": {
+      "properties": {
+        "type": "task",
+        "description": "计算学习效率",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.336502,
+      "access_count": 0
+    },
+    "task:优化学习策略": {
+      "properties": {
+        "type": "task",
+        "description": "优化学习策略",
+        "success_count": 0,
+        "failure_count": 0
+      },
+      "created_at": 1759332579.336689,
+      "access_count": 0
+    }
+  },
+  "knowledge_graph_edges": {
+    "task:搜索Python教程": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.3345048
+        }
+      }
+    },
+    "task:计算复合利率": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.3354151
+        }
+      }
+    },
+    "task:分析用户数据": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.335577
+        }
+      }
+    },
+    "task:制定学习计划": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.3357499
+        }
+      }
+    },
+    "task:搜索机器学习资源": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.336065
+        }
+      }
+    },
+    "task:分析学习进度": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.336267
+        }
+      }
+    },
+    "task:计算学习效率": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.336531
+        }
+      }
+    },
+    "task:优化学习策略": {
+      "action:calculate": {
+        "succeeds_with": {
+          "weight": 1.0,
+          "created_at": 1759332579.336716
+        }
+      }
+    }
+  },
+  "timestamp": 1759332579.336925
+}

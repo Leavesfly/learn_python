@@ -1,0 +1,1352 @@
+[
+  {
+    "reward": 64.47527914045463,
+    "steps": 500,
+    "cleanliness": 0.10948399768035243,
+    "cleaned_amount": 5.982527914045356,
+    "collisions": 37,
+    "epsilon": 0.08157186144027828,
+    "q_table_size": 55
+  },
+  {
+    "reward": 37.387700729140434,
+    "steps": 500,
+    "cleanliness": 0.028767675197677978,
+    "cleaned_amount": 1.6587700729140393,
+    "collisions": 12,
+    "epsilon": 0.05,
+    "q_table_size": 67
+  },
+  {
+    "reward": 25.288835410392185,
+    "steps": 500,
+    "cleanliness": 0.015326641716995517,
+    "cleaned_amount": 0.8488835410392257,
+    "collisions": 15,
+    "epsilon": 0.05,
+    "q_table_size": 81
+  },
+  {
+    "reward": 52.727860682264335,
+    "steps": 500,
+    "cleanliness": 0.037244012839432246,
+    "cleaned_amount": 2.162786068226367,
+    "collisions": 12,
+    "epsilon": 0.05,
+    "q_table_size": 94
+  },
+  {
+    "reward": 39.428486674883054,
+    "steps": 500,
+    "cleanliness": 0.03232421517036941,
+    "cleaned_amount": 1.7228486674882793,
+    "collisions": 20,
+    "epsilon": 0.05,
+    "q_table_size": 111
+  },
+  {
+    "reward": 26.998586248784672,
+    "steps": 500,
+    "cleanliness": 0.014792078994661844,
+    "cleaned_amount": 0.8448586248784783,
+    "collisions": 13,
+    "epsilon": 0.05,
+    "q_table_size": 116
+  },
+  {
+    "reward": 57.80993982041643,
+    "steps": 500,
+    "cleanliness": 0.059503295630483,
+    "cleaned_amount": 3.240993982041581,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 118
+  },
+  {
+    "reward": 63.766935670619034,
+    "steps": 500,
+    "cleanliness": 0.07291873990794158,
+    "cleaned_amount": 4.0316935670618435,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 121
+  },
+  {
+    "reward": 41.32562113963825,
+    "steps": 500,
+    "cleanliness": 0.03398600726942742,
+    "cleaned_amount": 1.8125621139638062,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 124
+  },
+  {
+    "reward": 56.02033819204248,
+    "steps": 500,
+    "cleanliness": 0.03976789895184403,
+    "cleaned_amount": 2.0020338192041596,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 128
+  },
+  {
+    "reward": 34.79336718463449,
+    "steps": 500,
+    "cleanliness": 0.02759824590212695,
+    "cleaned_amount": 1.5193367184634585,
+    "collisions": 12,
+    "epsilon": 0.05,
+    "q_table_size": 130
+  },
+  {
+    "reward": 55.284900184622515,
+    "steps": 500,
+    "cleanliness": 0.05409003962945886,
+    "cleaned_amount": 3.1534900184622163,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 130
+  },
+  {
+    "reward": 72.62841801332146,
+    "steps": 500,
+    "cleanliness": 0.07447603864110774,
+    "cleaned_amount": 4.047841801332005,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 138
+  },
+  {
+    "reward": 66.52754833505425,
+    "steps": 500,
+    "cleanliness": 0.07381383461865416,
+    "cleaned_amount": 4.177754833505378,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 139
+  },
+  {
+    "reward": 47.1380199786175,
+    "steps": 500,
+    "cleanliness": 0.030934294112170992,
+    "cleaned_amount": 1.68880199786169,
+    "collisions": 13,
+    "epsilon": 0.05,
+    "q_table_size": 144
+  },
+  {
+    "reward": 79.87586113790331,
+    "steps": 500,
+    "cleanliness": 0.09524877041919302,
+    "cleaned_amount": 5.287586113790255,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 149
+  },
+  {
+    "reward": 76.71183455448472,
+    "steps": 500,
+    "cleanliness": 0.072074757655902,
+    "cleaned_amount": 4.141183455448347,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 153
+  },
+  {
+    "reward": 59.46815759908388,
+    "steps": 500,
+    "cleanliness": 0.04149000349980936,
+    "cleaned_amount": 2.2268157599082805,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 154
+  },
+  {
+    "reward": 56.07235940486339,
+    "steps": 500,
+    "cleanliness": 0.05070311877005437,
+    "cleaned_amount": 2.7522359404862735,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 154
+  },
+  {
+    "reward": 70.26827188850588,
+    "steps": 500,
+    "cleanliness": 0.05998137540996281,
+    "cleaned_amount": 3.3368271888504437,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 155
+  },
+  {
+    "reward": 56.486509688369914,
+    "steps": 500,
+    "cleanliness": 0.05296986767044909,
+    "cleaned_amount": 2.943650968836965,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 155
+  },
+  {
+    "reward": 71.40382504836192,
+    "steps": 500,
+    "cleanliness": 0.06472328073245029,
+    "cleaned_amount": 3.78038250483609,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 157
+  },
+  {
+    "reward": 58.41799434650855,
+    "steps": 500,
+    "cleanliness": 0.0650501103325584,
+    "cleaned_amount": 3.646799434650787,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 158
+  },
+  {
+    "reward": 43.24581695252257,
+    "steps": 500,
+    "cleanliness": 0.03518137033634125,
+    "cleaned_amount": 1.9845816952522066,
+    "collisions": 12,
+    "epsilon": 0.05,
+    "q_table_size": 158
+  },
+  {
+    "reward": 40.51027808141006,
+    "steps": 500,
+    "cleanliness": 0.033426414460190505,
+    "cleaned_amount": 1.8810278081409864,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 159
+  },
+  {
+    "reward": 58.844975012976825,
+    "steps": 500,
+    "cleanliness": 0.057454860463904356,
+    "cleaned_amount": 3.3794975012976147,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 159
+  },
+  {
+    "reward": 32.01549061424759,
+    "steps": 500,
+    "cleanliness": 0.014252888886036773,
+    "cleaned_amount": 0.7315490614247618,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 159
+  },
+  {
+    "reward": 37.11550464977901,
+    "steps": 500,
+    "cleanliness": 0.034445055699877984,
+    "cleaned_amount": 1.9615504649778908,
+    "collisions": 13,
+    "epsilon": 0.05,
+    "q_table_size": 160
+  },
+  {
+    "reward": 60.404624877866475,
+    "steps": 500,
+    "cleanliness": 0.043617827898521117,
+    "cleaned_amount": 2.3854624877865365,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 160
+  },
+  {
+    "reward": 89.88328658095487,
+    "steps": 500,
+    "cleanliness": 0.08482364965889197,
+    "cleaned_amount": 4.823328658095352,
+    "collisions": 2,
+    "epsilon": 0.05,
+    "q_table_size": 160
+  },
+  {
+    "reward": 63.64393242462475,
+    "steps": 500,
+    "cleanliness": 0.04898148524881092,
+    "cleaned_amount": 2.649393242462348,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 162
+  },
+  {
+    "reward": 101.13485616794367,
+    "steps": 500,
+    "cleanliness": 0.11174177321558328,
+    "cleaned_amount": 6.613485616794207,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 163
+  },
+  {
+    "reward": 73.92148884336147,
+    "steps": 500,
+    "cleanliness": 0.06830923918086745,
+    "cleaned_amount": 3.632148884336009,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 164
+  },
+  {
+    "reward": 80.94161379314372,
+    "steps": 500,
+    "cleanliness": 0.07871795306728631,
+    "cleaned_amount": 4.209161379314213,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 164
+  },
+  {
+    "reward": 95.9406239654799,
+    "steps": 500,
+    "cleanliness": 0.1074973506761697,
+    "cleaned_amount": 6.234062396547839,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 165
+  },
+  {
+    "reward": 76.33146411963364,
+    "steps": 500,
+    "cleanliness": 0.07141956660819629,
+    "cleaned_amount": 3.803146411963226,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 166
+  },
+  {
+    "reward": 66.15172818022498,
+    "steps": 500,
+    "cleanliness": 0.04684675355020861,
+    "cleaned_amount": 2.6401728180224273,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 166
+  },
+  {
+    "reward": 63.81614001878442,
+    "steps": 500,
+    "cleanliness": 0.05347799599134011,
+    "cleaned_amount": 2.936614001878302,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 167
+  },
+  {
+    "reward": 77.83621669699039,
+    "steps": 500,
+    "cleanliness": 0.07958435915539287,
+    "cleaned_amount": 4.128621669698895,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 167
+  },
+  {
+    "reward": 79.35311469823063,
+    "steps": 500,
+    "cleanliness": 0.08201904352804901,
+    "cleaned_amount": 4.850311469822918,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 169
+  },
+  {
+    "reward": 68.41923861916844,
+    "steps": 500,
+    "cleanliness": 0.05858535364453076,
+    "cleaned_amount": 3.176923861916766,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 170
+  },
+  {
+    "reward": 73.99364288512182,
+    "steps": 500,
+    "cleanliness": 0.07272316187685747,
+    "cleaned_amount": 4.164364288512061,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 170
+  },
+  {
+    "reward": 84.94087066289731,
+    "steps": 500,
+    "cleanliness": 0.08642357776907865,
+    "cleaned_amount": 4.544087066289633,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 172
+  },
+  {
+    "reward": 55.12475468826365,
+    "steps": 500,
+    "cleanliness": 0.045273937660829565,
+    "cleaned_amount": 2.527475468826233,
+    "collisions": 13,
+    "epsilon": 0.05,
+    "q_table_size": 173
+  },
+  {
+    "reward": 59.07461388360507,
+    "steps": 500,
+    "cleanliness": 0.050695076221063104,
+    "cleaned_amount": 2.6724613883604107,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 173
+  },
+  {
+    "reward": 70.42334393607595,
+    "steps": 500,
+    "cleanliness": 0.06838956973870113,
+    "cleaned_amount": 4.05733439360744,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 173
+  },
+  {
+    "reward": 69.00090281777862,
+    "steps": 500,
+    "cleanliness": 0.06698446140691819,
+    "cleaned_amount": 3.505090281777731,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 174
+  },
+  {
+    "reward": 95.30076902975858,
+    "steps": 500,
+    "cleanliness": 0.10126012001053916,
+    "cleaned_amount": 5.730076902975702,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 174
+  },
+  {
+    "reward": 68.93188790272967,
+    "steps": 500,
+    "cleanliness": 0.06219642003514625,
+    "cleaned_amount": 3.338188790272808,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 175
+  },
+  {
+    "reward": 70.62286793478722,
+    "steps": 500,
+    "cleanliness": 0.07307124083175771,
+    "cleaned_amount": 3.8572867934785866,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 175
+  },
+  {
+    "reward": 75.23307542686584,
+    "steps": 500,
+    "cleanliness": 0.07156349484079141,
+    "cleaned_amount": 3.9883075426864383,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 88.75218725450142,
+    "steps": 500,
+    "cleanliness": 0.09526768917182862,
+    "cleaned_amount": 5.235218725450011,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 73.70225335527023,
+    "steps": 500,
+    "cleanliness": 0.07965441020981875,
+    "cleaned_amount": 4.28522533552687,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 76.79945786201158,
+    "steps": 500,
+    "cleanliness": 0.08466090852286345,
+    "cleaned_amount": 4.829945786201025,
+    "collisions": 11,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 88.8544072938122,
+    "steps": 500,
+    "cleanliness": 0.085829915757005,
+    "cleaned_amount": 4.925440729381072,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 90.16856295541568,
+    "steps": 500,
+    "cleanliness": 0.09145049164017907,
+    "cleaned_amount": 5.17185629554143,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 71.24253781717466,
+    "steps": 500,
+    "cleanliness": 0.06046246769122795,
+    "cleaned_amount": 3.4842537817173067,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 56.33622653567458,
+    "steps": 500,
+    "cleanliness": 0.038724722466094305,
+    "cleaned_amount": 2.043622653567393,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 88.17862784277153,
+    "steps": 500,
+    "cleanliness": 0.08659114111423898,
+    "cleaned_amount": 4.952862784277015,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 176
+  },
+  {
+    "reward": 101.02864781007251,
+    "steps": 500,
+    "cleanliness": 0.11796034929112043,
+    "cleaned_amount": 6.727864781007092,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 177
+  },
+  {
+    "reward": 72.74388235902516,
+    "steps": 500,
+    "cleanliness": 0.06240704255287484,
+    "cleaned_amount": 3.3843882359024007,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 177
+  },
+  {
+    "reward": 80.39125484890643,
+    "steps": 500,
+    "cleanliness": 0.08256990857732037,
+    "cleaned_amount": 4.50912548489052,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 179
+  },
+  {
+    "reward": 78.77223945283407,
+    "steps": 500,
+    "cleanliness": 0.07526492386456775,
+    "cleaned_amount": 4.14722394528325,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 179
+  },
+  {
+    "reward": 88.23705589669525,
+    "steps": 500,
+    "cleanliness": 0.08678111304254921,
+    "cleaned_amount": 4.968705589669368,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 64.47928146497118,
+    "steps": 500,
+    "cleanliness": 0.06775041296762688,
+    "cleaned_amount": 3.792928146496961,
+    "collisions": 12,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 68.98524910511175,
+    "steps": 500,
+    "cleanliness": 0.06453198115625908,
+    "cleaned_amount": 3.4435249105110164,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 61.847125955447225,
+    "steps": 500,
+    "cleanliness": 0.0434597712801657,
+    "cleaned_amount": 2.4247125955446003,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 88.96360507959004,
+    "steps": 500,
+    "cleanliness": 0.11544804794843601,
+    "cleaned_amount": 6.121360507958857,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 88.08438944873512,
+    "steps": 500,
+    "cleanliness": 0.08702204642883521,
+    "cleaned_amount": 5.123438944873357,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 78.85749251737096,
+    "steps": 500,
+    "cleanliness": 0.08005742622240186,
+    "cleaned_amount": 4.65574925173694,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 69.32510145774066,
+    "steps": 500,
+    "cleanliness": 0.06254493664408571,
+    "cleaned_amount": 3.4575101457739157,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 84.14860862189967,
+    "steps": 500,
+    "cleanliness": 0.09903461117082117,
+    "cleaned_amount": 5.339860862189812,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 86.95543876298389,
+    "steps": 500,
+    "cleanliness": 0.10102678743829217,
+    "cleaned_amount": 5.575543876298229,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 88.81373957487664,
+    "steps": 500,
+    "cleanliness": 0.0871180404566559,
+    "cleaned_amount": 4.996373957487502,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 55.53212649949956,
+    "steps": 500,
+    "cleanliness": 0.04556915735458554,
+    "cleaned_amount": 2.3332126499498456,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 79.09048491111986,
+    "steps": 500,
+    "cleanliness": 0.08085811734597456,
+    "cleaned_amount": 4.43904849111183,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 83.37101716881988,
+    "steps": 500,
+    "cleanliness": 0.08397413375626771,
+    "cleaned_amount": 4.47710171688184,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 180
+  },
+  {
+    "reward": 65.17414329321032,
+    "steps": 500,
+    "cleanliness": 0.0577037306205686,
+    "cleaned_amount": 3.307414329320889,
+    "collisions": 11,
+    "epsilon": 0.05,
+    "q_table_size": 181
+  },
+  {
+    "reward": 103.78205969212402,
+    "steps": 500,
+    "cleanliness": 0.11855974756050211,
+    "cleaned_amount": 6.413205969212244,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 183
+  },
+  {
+    "reward": 81.6371648456098,
+    "steps": 500,
+    "cleanliness": 0.08277546145121972,
+    "cleaned_amount": 4.783716484560822,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 183
+  },
+  {
+    "reward": 99.95451479209777,
+    "steps": 500,
+    "cleanliness": 0.12481188573750883,
+    "cleaned_amount": 6.77045147920962,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 184
+  },
+  {
+    "reward": 52.45936961413386,
+    "steps": 500,
+    "cleanliness": 0.038438351120006285,
+    "cleaned_amount": 2.060936961413309,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 184
+  },
+  {
+    "reward": 103.35383362794501,
+    "steps": 500,
+    "cleanliness": 0.1161575565120472,
+    "cleaned_amount": 6.850383362794345,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 184
+  },
+  {
+    "reward": 80.14858504320136,
+    "steps": 500,
+    "cleanliness": 0.08088261873909472,
+    "cleaned_amount": 4.384858504319998,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 185
+  },
+  {
+    "reward": 76.86227486750839,
+    "steps": 500,
+    "cleanliness": 0.08051510071556042,
+    "cleaned_amount": 4.556227486750681,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 185
+  },
+  {
+    "reward": 77.95754087802983,
+    "steps": 500,
+    "cleanliness": 0.07129402256674743,
+    "cleaned_amount": 3.9207540878028326,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 99.72245424892955,
+    "steps": 500,
+    "cleanliness": 0.12363718290742969,
+    "cleaned_amount": 6.697245424892799,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 75.72650093753163,
+    "steps": 500,
+    "cleanliness": 0.07860541301816194,
+    "cleaned_amount": 4.5726500937530155,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 71.22960125453599,
+    "steps": 500,
+    "cleanliness": 0.05746546564125531,
+    "cleaned_amount": 3.1629601254534743,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 104.26508410568857,
+    "steps": 500,
+    "cleanliness": 0.1294924943340261,
+    "cleaned_amount": 7.2615084105687,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 78.44638606315004,
+    "steps": 500,
+    "cleanliness": 0.09010892909984747,
+    "cleaned_amount": 4.96463860631485,
+    "collisions": 13,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 78.24108397948415,
+    "steps": 500,
+    "cleanliness": 0.08029826193436457,
+    "cleaned_amount": 4.489108397948272,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 98.27755805087737,
+    "steps": 500,
+    "cleanliness": 0.10562684054159159,
+    "cleaned_amount": 5.8477558050875755,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 82.7730274040892,
+    "steps": 500,
+    "cleanliness": 0.0981630499275208,
+    "cleaned_amount": 5.447302740408766,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 85.95345154349295,
+    "steps": 500,
+    "cleanliness": 0.09011517583273213,
+    "cleaned_amount": 4.85534515434914,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 91.3781770564362,
+    "steps": 500,
+    "cleanliness": 0.10464927820062132,
+    "cleaned_amount": 5.827817705643457,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 66.83583439291264,
+    "steps": 500,
+    "cleanliness": 0.06590748538642874,
+    "cleaned_amount": 3.5285834392911215,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 77.25532828639248,
+    "steps": 500,
+    "cleanliness": 0.07773758112360904,
+    "cleaned_amount": 4.175532828639116,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 95.8786921832947,
+    "steps": 500,
+    "cleanliness": 0.10633310515506939,
+    "cleaned_amount": 5.937869218329315,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 82.17066103961172,
+    "steps": 500,
+    "cleanliness": 0.08178779868776717,
+    "cleaned_amount": 4.567066103961026,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 56.698026292822746,
+    "steps": 500,
+    "cleanliness": 0.03671052994455667,
+    "cleaned_amount": 2.059802629282186,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 186
+  },
+  {
+    "reward": 77.74519864109301,
+    "steps": 500,
+    "cleanliness": 0.07896528649210934,
+    "cleaned_amount": 4.149519864109172,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 187
+  },
+  {
+    "reward": 82.78127246602051,
+    "steps": 500,
+    "cleanliness": 0.08999135537013499,
+    "cleaned_amount": 5.0731272466018975,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 187
+  },
+  {
+    "reward": 88.30363063005538,
+    "steps": 500,
+    "cleanliness": 0.09587675710005623,
+    "cleaned_amount": 5.2003630630053905,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 187
+  },
+  {
+    "reward": 73.88454296914391,
+    "steps": 500,
+    "cleanliness": 0.07606970897575506,
+    "cleaned_amount": 4.213454296914236,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 187
+  },
+  {
+    "reward": 88.64794479435591,
+    "steps": 500,
+    "cleanliness": 0.09843324704057435,
+    "cleaned_amount": 5.344794479435434,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 187
+  },
+  {
+    "reward": 87.87893866308931,
+    "steps": 500,
+    "cleanliness": 0.08633754854711674,
+    "cleaned_amount": 4.81289386630877,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 89.56450956101634,
+    "steps": 500,
+    "cleanliness": 0.09735431006991764,
+    "cleaned_amount": 5.401450956101476,
+    "collisions": 3,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 79.41078313170584,
+    "steps": 500,
+    "cleanliness": 0.08613635449797927,
+    "cleaned_amount": 4.536078313170431,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 103.56760505767673,
+    "steps": 500,
+    "cleanliness": 0.11751519707439084,
+    "cleaned_amount": 6.631760505767523,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 85.66203447531383,
+    "steps": 500,
+    "cleanliness": 0.10200637965563593,
+    "cleaned_amount": 5.276203447531232,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 61.66110678730404,
+    "steps": 500,
+    "cleanliness": 0.06222563657568174,
+    "cleaned_amount": 3.081110678730274,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 91.88851674030242,
+    "steps": 500,
+    "cleanliness": 0.10864780811847358,
+    "cleaned_amount": 5.758851674030085,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 118.45982463414595,
+    "steps": 500,
+    "cleanliness": 0.1347592202257843,
+    "cleaned_amount": 8.045982463414436,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 72.28343767674492,
+    "steps": 500,
+    "cleanliness": 0.06832798625072416,
+    "cleaned_amount": 3.4183437676743673,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 87.65684974322595,
+    "steps": 500,
+    "cleanliness": 0.09850965821168842,
+    "cleaned_amount": 5.475684974322439,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 101.44465034125122,
+    "steps": 500,
+    "cleanliness": 0.11371021314206059,
+    "cleaned_amount": 6.599465034124965,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 83.71091395609662,
+    "steps": 500,
+    "cleanliness": 0.09293494273535405,
+    "cleaned_amount": 5.206091395609508,
+    "collisions": 11,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 96.71189238724173,
+    "steps": 500,
+    "cleanliness": 0.1034872136826325,
+    "cleaned_amount": 5.92118923872401,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 81.5181741235938,
+    "steps": 500,
+    "cleanliness": 0.08786804488857088,
+    "cleaned_amount": 4.761817412359223,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 67.19049684715789,
+    "steps": 500,
+    "cleanliness": 0.06474218636914318,
+    "cleaned_amount": 3.5040496847156377,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 84.49072540471835,
+    "steps": 500,
+    "cleanliness": 0.09686953194961971,
+    "cleaned_amount": 4.9440725404716765,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 87.43525460887783,
+    "steps": 500,
+    "cleanliness": 0.10276520230618917,
+    "cleaned_amount": 5.858525460887629,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 98.65400148412773,
+    "steps": 500,
+    "cleanliness": 0.11003129915223898,
+    "cleaned_amount": 6.360400148412617,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 188
+  },
+  {
+    "reward": 92.63105104339772,
+    "steps": 500,
+    "cleanliness": 0.08961948192370577,
+    "cleaned_amount": 5.178105104339639,
+    "collisions": 2,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 96.25123577576473,
+    "steps": 500,
+    "cleanliness": 0.11433721660105049,
+    "cleaned_amount": 6.080123577576316,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 89.03770006496039,
+    "steps": 500,
+    "cleanliness": 0.08532395747067656,
+    "cleaned_amount": 5.078770006495914,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 81.42564417247755,
+    "steps": 500,
+    "cleanliness": 0.08504372019355703,
+    "cleaned_amount": 4.602564417247595,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 104.11810249339916,
+    "steps": 500,
+    "cleanliness": 0.1216269182052541,
+    "cleaned_amount": 6.501810249339756,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 68.17386604287914,
+    "steps": 500,
+    "cleanliness": 0.06478530500212978,
+    "cleaned_amount": 3.4923866042877565,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 100.83567057713863,
+    "steps": 500,
+    "cleanliness": 0.10356862142751565,
+    "cleaned_amount": 5.968567057713711,
+    "collisions": 0,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 82.70734312088176,
+    "steps": 500,
+    "cleanliness": 0.08638828389011387,
+    "cleaned_amount": 4.985734312088017,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 84.78950115892955,
+    "steps": 500,
+    "cleanliness": 0.09197609225432153,
+    "cleaned_amount": 4.948950115892808,
+    "collisions": 1,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 89.66617940178926,
+    "steps": 500,
+    "cleanliness": 0.09995147322429195,
+    "cleaned_amount": 5.741617940178771,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 61.104118977648135,
+    "steps": 500,
+    "cleanliness": 0.04625920984907233,
+    "cleaned_amount": 2.5204118977647147,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 74.03894962206122,
+    "steps": 500,
+    "cleanliness": 0.07143807526439265,
+    "cleaned_amount": 3.828894962205977,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 70.13162234454241,
+    "steps": 500,
+    "cleanliness": 0.07408860146242965,
+    "cleaned_amount": 4.118162234454101,
+    "collisions": 7,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 108.46877682430987,
+    "steps": 500,
+    "cleanliness": 0.128097829886715,
+    "cleaned_amount": 7.056877682430829,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 69.51073225513356,
+    "steps": 500,
+    "cleanliness": 0.06902797777543404,
+    "cleaned_amount": 3.9610732255132266,
+    "collisions": 11,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 96.62608386565871,
+    "steps": 500,
+    "cleanliness": 0.12261625191587981,
+    "cleaned_amount": 6.812608386565717,
+    "collisions": 13,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 63.45011782907215,
+    "steps": 500,
+    "cleanliness": 0.05073697343049614,
+    "cleaned_amount": 2.8800117829070793,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 81.0902030586633,
+    "steps": 500,
+    "cleanliness": 0.09385946498108894,
+    "cleaned_amount": 5.019020305866178,
+    "collisions": 8,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 95.83502863489569,
+    "steps": 500,
+    "cleanliness": 0.1052160802954425,
+    "cleaned_amount": 6.148502863489411,
+    "collisions": 5,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 68.31542135965996,
+    "steps": 500,
+    "cleanliness": 0.07234832201807292,
+    "cleaned_amount": 3.8365421359658805,
+    "collisions": 10,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 110.03921247805478,
+    "steps": 500,
+    "cleanliness": 0.12344010553010368,
+    "cleaned_amount": 7.143921247805317,
+    "collisions": 2,
+    "epsilon": 0.05,
+    "q_table_size": 190
+  },
+  {
+    "reward": 80.57397860053929,
+    "steps": 500,
+    "cleanliness": 0.06839992078752055,
+    "cleaned_amount": 3.912397860053771,
+    "collisions": 1,
+    "epsilon": 0.05,
+    "q_table_size": 192
+  },
+  {
+    "reward": 93.6546538681071,
+    "steps": 500,
+    "cleanliness": 0.11900405949519591,
+    "cleaned_amount": 6.2404653868105555,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 192
+  },
+  {
+    "reward": 87.69915565462388,
+    "steps": 500,
+    "cleanliness": 0.09373668152384368,
+    "cleaned_amount": 5.464915565462247,
+    "collisions": 9,
+    "epsilon": 0.05,
+    "q_table_size": 194
+  },
+  {
+    "reward": 68.69158066397817,
+    "steps": 500,
+    "cleanliness": 0.06279587427236605,
+    "cleaned_amount": 3.199158066397721,
+    "collisions": 6,
+    "epsilon": 0.05,
+    "q_table_size": 194
+  },
+  {
+    "reward": 101.31290690197022,
+    "steps": 500,
+    "cleanliness": 0.12262237008310806,
+    "cleaned_amount": 6.601290690196877,
+    "collisions": 4,
+    "epsilon": 0.05,
+    "q_table_size": 194
+  }
+]

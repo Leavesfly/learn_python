@@ -1,0 +1,28 @@
+# 打包时包含的额外文件
+
+# 文档文件
+include README.md
+include LICENSE
+include *.md
+include *_README*.md
+include *_SUMMARY.md
+include *_INDEX.md
+
+# 配置文件
+include requirements.txt
+include pyproject.toml
+include setup.py
+
+# 数据文件
+include *.json
+include *.txt
+exclude embodied_robot_training.json
+exclude learning_results_*.json
+exclude agent_state.json
+
+# 排除不必要的文件
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude *.log
+global-exclude *.swp
